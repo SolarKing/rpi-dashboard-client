@@ -5,8 +5,37 @@
   left: 0;
   width: 70px;
   background: #2D3E50;
+
+  .logo {
+    background: #376271;
+    img {
+      width: 70px;
+    }
+  }
 }
 
 #mainView {
+  position: absolute;
+  top: 0;
+  left: 70px;
+  bottom: 0;
+  right: 0;
+  background: #f4f4f4;
+}
 
+#dashboard {
+  position: absolute;
+  left: 0;
+  right: 300px;
+  top: 0;
+  bottom: 0;
+}
+
+#secondaryView {
+  background: #222;
+  position: absolute;
+  width: 300px;
+  top: 0;
+  bottom: 0;
+  right: 0;
 }
